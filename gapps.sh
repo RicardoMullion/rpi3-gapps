@@ -46,7 +46,7 @@ echo "Device address: $address"
 
 if [ ! -d org ]; then
   echo " * Downloading GApps package..."
-  wget https://dl.dropboxusercontent.com/content_link/v2Bb1YajUewDSeks8bsmYLd52uvq3SKAzn298i4XDJ29yHj7Ehnw5mtlD53WpWvj/file?dl=1
+  wget https://www.dropbox.com/s/cb2l9n5bs5g41fs/open_gapps-arm-6.0-tvstock-20160816-UNOFFICIAL.zip
   unzip $package -d org
 fi
 
