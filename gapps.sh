@@ -77,8 +77,6 @@ mkdir -p tmp
 find . -name "*.tar.xz" -exec tar -xf {} -C tmp/ \;
 
 echo " * Removing conflicting packages..."
-echo "  - SetupWizard (TV)"
-rm -rf tmp/setupwraith* > /dev/null 2>&1
 echo "  - PackageInstaller (Google)"
 rm -rf tmp/packageinstallergoogle* > /dev/null 2>&1
 rm -rf tmp/tvpackageinstallergoogle* > /dev/null 2>&1
